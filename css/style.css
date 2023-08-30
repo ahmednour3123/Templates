@@ -1,13 +1,13 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-main{
+main {
     width: 85%;
     margin: auto;
 }
-header{
+header {
     width: 85%;
     height: 9vh;
     overflow: hidden;
@@ -19,40 +19,46 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header img{
+header img {
     width: 50px;
     height: 50px;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
-nav ul li{
+
+nav ul li {
     text-align: center;
     align-items: center;
     padding: 10px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #444;
 }
-.bord{
+
+.bord {
     color: white;
     border-radius: 50px;
-    background: rgb(8, 130, 245);
+    background: rgb(155, 67, 238);
     padding: 5px 10px;
 }
-#about{
+
+#about {
     width: 100%;
     height: 80vh;
     background: url(../imges/lorem.jpg) no-repeat center/cover;
     z-index: 1;
 }
-#about .text1{
+
+#about .text1 {
     width: 75%;
     height: 40vh;
-    background:  rgba(11, 167, 229, 0.1);
+    background: rgb(155, 67, 238, .1);
     position: relative;
     top: 30vh;
     margin: auto;
@@ -63,6 +69,7 @@ nav ul li a{
     z-index: 3;
     overflow: hidden;
 }
+
 #proj {
     width: 100%;
     height: 80vh;
@@ -70,15 +77,17 @@ nav ul li a{
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
-#proj img{
+
+#proj img {
     width: 50%;
     height: 60vh;
     margin-top: 3vh;
 }
-#proj .text2{
+
+#proj .text2 {
     width: 70%;
     height: 45vh;
-    background:  #fff;
+    background: #fff;
     color: #444;
     position: relative;
     top: -40vh;
@@ -90,7 +99,8 @@ nav ul li a{
     border-radius: 10px;
     overflow: hidden;
 }
-#why{
+
+#why {
     width: 100%;
     height: 80vh;
     margin-bottom: 0;
@@ -98,7 +108,7 @@ nav ul li a{
     z-index: 1;
 }
 
-#why .text3{
+#why .text3 {
     width: 100%;
     height: 80vh;
     background-color: rgba(220, 227, 236, .1);
@@ -110,59 +120,72 @@ nav ul li a{
     z-index: 3;
     overflow: hidden;
 }
-.righ{
+
+.righ {
     width: 60%;
     display: inline-block;
 }
-.text3 h2{
+
+.text3 h2 {
     display: inline-block;
     position: relative;
     bottom: 10vh;
     align-items: center;
 }
-.text3 p{
+
+.text3 p {
     position: relative;
     top: 18vh;
     margin-bottom: 20vh;
 }
-footer{
+
+footer {
     width: 100%;
     height: 30vh;
 }
-footer .top-footer{
+
+footer .top-footer {
     display: flex;
     justify-content: space-around;
 }
-figure{
+
+figure {
     width: 20%;
     padding: 10px;
 }
-figure img{
+
+figure img {
     width: 100%;
-   
+    border-radius: 1%;
+    box-shadow: 5px 6px 10px rgb(240, 175, 149);
 }
-figcaption{
-    font-size: 50px;
+
+figcaption {
+    font-size: 1.3rem;
     color: #333;
     padding: 5px;
     text-align: center;
 }
-footer h2{
-    font-size: 50px;
+
+footer h2 {
+    font-size: 2rem;
     font-weight: bold;
     color: #222;
     display: block;
     text-align: center;
 }
+
 @media screen and (max-width:665px) {
-    header ul{
+    header ul {
         display: none;
     }
-    footer .top-footer{
+
+    footer .top-footer {
         /* display: block; */
         flex-wrap: wrap;
     }
-    figure{
+
+    figure {
         width: 36%;
     }
 }
