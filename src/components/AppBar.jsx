@@ -209,7 +209,7 @@ const AppBarr = ({ showList, setshowList }) => {
           >
             <Avatar
               sx={{ width: "37px", height: "37px" }}
-              src="./imges/Ahmed Nour.JPG"
+              src="imges/Ahmed Nour.jpg"
             />
           </IconButton>
         </Box>
