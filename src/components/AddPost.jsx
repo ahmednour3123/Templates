@@ -72,7 +72,7 @@ const AddPost = () => {
           <Stack alignItems="center" direction="row">
             <Avatar
               sx={{ mr: "13px" }}
-              src="./imges/Ahmed Nour.JPG"
+              src="imges/Ahmed Nour.jpg"
             />
             <Typography variant="body1">Ahmed Nour</Typography>
           </Stack>
